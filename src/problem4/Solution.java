@@ -13,7 +13,6 @@ public static String replaceSpace(StringBuffer str) {
 			else
 				sb.append(str.charAt(x));
 		}
-		
     	return sb.toString();
     }
 	public static void main(String [] args)
