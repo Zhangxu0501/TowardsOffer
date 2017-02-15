@@ -1,4 +1,4 @@
-package problem28排列组合问题未完成;
+package problem28全排列未完成;
 
 import java.lang.reflect.Array;
 import java.util.ArrayList;
