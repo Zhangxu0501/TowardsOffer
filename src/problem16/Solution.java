@@ -24,8 +24,10 @@ public class Solution {
     public static void main(String[] args)
 	{
 		ListNode head=new ListNode(1);
-	
-		
+		ListNode next=new ListNode(2);
+		head.next=next;
+		next.next=new ListNode(3);
+
 		head=ReverseList(head);
 		System.out.println(head);
 	}
@@ -37,4 +39,12 @@ class ListNode {
     ListNode(int val) {
         this.val = val;
     }
+
+	@Override
+	public String toString() {
+		return "ListNode{" +
+				"val=" + val +
+				", next=" + next +
+				'}';
+	}
 }

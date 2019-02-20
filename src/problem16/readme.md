@@ -10,3 +10,7 @@ root保存新链表的根节点，now保存当前遍历到原有链表的位置�
 注意事项：
 1.求解的鲁棒性，考虑head为null的情况
 2.head.next要设置为null,不然就形成了换head.next=head.next.next
+
+
+三个指针。
+四行代码。
